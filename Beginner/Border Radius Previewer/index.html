@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius Previewer</title>
+</head>
+<body>
+    <div class="container">
+            <table class="div">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>
+                        <select onchange="borderDiv()" class="input" name="selectOption" id="selectOption">
+                            <option selected="selected" value="px">px</option>
+                            <option value="percentage">%</option>
+                        </select>
+                    </th>
+                </tr>
+
+                <tr>
+                  <th><label>Top-left</label></th>
+                  <th> <input placeholder="Top-left Value" onkeyup="borderDiv()" type="text" class="input" id="top-left"></th>
+                  <th class='px'>px</th>
+                </tr>
+
+                <tr>
+                  <th><label>Top-right</label></th>
+                  <th><input placeholder="Top-right Value" onkeyup="borderDiv()" type="text" class="input" id="top-right"></th>
+                  <th class='px'>px</th>
+                </tr>
+
+                <tr>
+                    <th><label>Bottom-left</label></th>
+                    <th><input placeholder="Bottom-left Value" onkeyup="borderDiv()" class="input" id="bottom-left"></th>
+                    <th class='px'>px</th>
+                </tr>
+
+                <tr>
+                    <th><label>Bottom-right</label></th>
+                    <th><input placeholder="Bottom-right Value" onkeyup="borderDiv()" type="text" class="input" id="bottom-right"></th>
+                    <th class='px'>px</th>
+                </tr>
+                
+                <tr>
+                    <th>
+                        <label>COPY CSS:</label>
+                    </th>
+                    <th>
+                        <input class="input" type="text" id="CSS">
+                    </th>
+                    <th>
+                        <button class="input" onclick="myFunction()">Copy CSS</button>
+                    </th>
+                </tr>
+            </table>
+    </div>
+    <h4>Square Size: 200px</h4>
+    <div id="container">
+        <div id="divmodified">
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

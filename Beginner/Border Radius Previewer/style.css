@@ -1,0 +1,47 @@
+.container {
+    flex-direction: column;
+    padding-top: 10vh;
+    display: flex;
+}
+
+.div {
+    text-align: center;
+    margin:10px auto;
+    font-size: 20px;
+    width: 70%;
+}
+
+.input {
+    text-align: center;
+    height: 3em;
+    width: 40%;
+}
+
+.px {
+    font-size: 15px;
+}
+
+#container {
+    margin: 20px auto;
+    height: 400px;
+    width: 400px;
+}
+
+#divmodified {
+    height: 200px;
+    width: 200px;
+    margin: 100px auto 0;
+    vertical-align: middle;
+}
+
+#container, #divmodified { 
+    border: 1px solid #000;
+}
+
+h4 {
+    text-align: center;
+}
+
+#CSS {
+    text-align: left;
+}

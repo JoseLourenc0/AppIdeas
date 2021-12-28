@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Cycle</title>
+</head>
+<body>
+    <div id="colorChange"></div>
+    <div>
+        <div class = 'container'>
+            <table>
+                <tr>
+                    <th>Red</th>
+                    <th><input placeholder="red value" type="text" id="red"></th>
+                </tr>
+                <tr>
+                    <th>Green</th>
+                    <th><input placeholder="green value" type="text" id="green"></th>
+                </tr>
+                <tr>
+                    <th>Blue</th>
+                    <th><input placeholder="blue value" type="text" id="blue"></th>
+                </tr>
+            </table>
+            <div class="preview">
+                <span>Preview</span>
+                <div id="preview">
+
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div>
+                 <input value="cssCode" type="text" id="cssCode">
+                <button onclick="myFunction()">Copy CSS</button>
+            </div>
+            <button onclick='insertColor()'>Insert Color</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

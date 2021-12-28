@@ -1,0 +1,53 @@
+#colorChange {
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: .5%;
+    height: 400px;
+    transition: 0.25s;
+}
+
+div, table, button {
+    text-align: center;
+    width: 80%;
+    margin:0 auto;
+}
+
+table, .preview {
+    margin-top: 10px;
+}
+
+button {
+    background-color: cornflowerblue;
+    border-radius: 2px;
+    margin-top: 10px;
+    color: cornsilk;
+    font-weight: bold;
+    width: auto;
+    cursor: pointer;
+    transition: 0.4s;
+    height: 25px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    display: flex;
+}
+
+#preview {
+    border: 2px solid black;
+    height: 55px;
+    width: 55px;
+}
+
+.container2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cssCode {
+    margin: 0 auto;
+}

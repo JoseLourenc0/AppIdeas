@@ -1,0 +1,47 @@
+#setup {
+    flex-direction: column;
+    margin: 2em auto;
+    display: flex;
+    height: 150px;
+    width: 350px;
+}
+
+#setup div {
+    margin: 10px auto 0;
+    height: 40px;
+}
+
+#setup div select {
+    text-align: center;
+    width: 40px;
+}
+
+#rows {
+    border:1px solid black;
+    min-height: 100px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+th div {
+    margin-bottom: 10px;
+}
+
+th {
+    width: 300px;
+}
+
+.circle {
+    animation: blinker 1s linear infinite;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+}
+
+@keyframes blinker {
+    50% {
+        filter: brightness(50%);
+    }
+}
